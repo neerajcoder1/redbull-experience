@@ -1,5 +1,5 @@
 # Red Bull Cinematic Digital Experience ⚡
-Prievew - https://redbull-experience-blush.vercel.app/
+Preview  - https://redbull-experience-blush.vercel.app/
 A premium, high-impact interactive landing page inspired by Red Bull and built with Apple-style scroll storytelling, immersive 3D-style animations, and realistic ambient lighting.
 
 Designed and built using **Next.js (App Router)**, **Tailwind CSS v4**, **GSAP**, and **Framer Motion**.
