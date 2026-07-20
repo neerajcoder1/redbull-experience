@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Red Bull Cinematic Digital Experience ⚡
 
-## Getting Started
+A premium, high-impact interactive landing page inspired by Red Bull and built with Apple-style scroll storytelling, immersive 3D-style animations, and realistic ambient lighting.
 
-First, run the development server:
+Designed and built using **Next.js (App Router)**, **Tailwind CSS v4**, **GSAP**, and **Framer Motion**.
 
+---
+
+## 🎨 Professional 3D Renders Showcase
+
+We've integrated a set of high-fidelity, custom-rendered 3D assets to create a luxury product showcase on scroll:
+
+<p align="center">
+  <img src="./public/assets/key_visual_1.png" width="280" alt="Liquid Splash and Shards Render" style="margin: 10px;" />
+  <img src="./public/assets/key_visual_2.png" width="280" alt="Cyber Wings Portal Render" style="margin: 10px;" />
+  <img src="./public/assets/key_visual_3.png" width="280" alt="Cryogenic Frost blast Render" style="margin: 10px;" />
+</p>
+
+---
+
+## ✨ Immersive Features
+
+*   🎥 **Kinetic Video Background**: Embedded a high-performance looping abstract blue energy wave video inside the hero section, masked with a deep dark blue gradient overlay to ensure content legibility.
+*   🔄 **Scroll-Linked Product Evolution**: Driven by **GSAP ScrollTrigger**, the main product visual evolves dynamically as the user scrolls, transitioning opacities and scales across four distinct stages:
+    1.  **Classic Can** (Caffeine slide)
+    2.  **Fluid Splash & Shards** (Taurine slide)
+    3.  **Cryo Frost Blast** (B-Vitamins slide)
+    4.  **Cyber Wings Portal** (Alpine Water slide)
+*   💎 **Interactive Can Anatomy**: Pulsing HUD hotspots mapped across the product shell. Click or hover on the coordinates to dissect the pull tab, double-seam seal, recyclability footprint, and matte-grip texture details.
+*   🌈 **Ambient Flavor Showroom**: A premium slider showcasing Classic, Sugarfree, and Tropical editions. Selecting different editions triggers fluid can transitions and morphs the background's ambient glow.
+*   🚀 **Tactile Inertia Cursor**: Dual-layered custom cursor featuring magnetic tracking, interactive states (scaling/color morphing on link hovers), and smooth inertia.
+*   💧 **Lenis Smooth Scroll**: Buttery smooth client-side kinetic scrolling fully synchronized with GSAP ScrollTrigger timelines.
+
+---
+
+## 🛠️ Technology Stack
+
+*   **Framework**: Next.js 16 (App Router)
+*   **Styling**: Tailwind CSS v4 (native `@theme` config, CSS variables)
+*   **Animation**: GSAP (ScrollTrigger) & Framer Motion
+*   **Smooth Scroll**: Lenis
+*   **Iconography**: Lucide React
+*   **Language**: TypeScript
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the project
+```bash
+git clone https://github.com/neerajcoder1/redbull-experience.git
+cd redbull-experience
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Run the development server
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 4. Build for Production
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+This project is for creative portfolio purposes. All brand names, logos, and assets remain the property of their respective owners.
