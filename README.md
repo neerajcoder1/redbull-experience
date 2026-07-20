@@ -1,8 +1,29 @@
 # <p align="center">⚡ Red Bull Cinematic Digital Experience</p>
 
+
 <p align="center">
-  <img src="./public/assets/logo.png" alt="Project Logo" width="180"/>
+  <strong>A premium cinematic product experience inspired by Red Bull, combining Apple-style storytelling, immersive animations, and interactive 3D visuals.</strong>
 </p>
+
+<p align="center">
+  <a href="https://redbull-experience-blush.vercel.app/"><strong>Live Demo</strong></a> •
+  <a href="https://github.com/neerajcoder1/redbull-experience"><strong>Repository</strong></a>
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nextjs,typescript,tailwind,react,vercel" alt="Tech Stack"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black" />
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
+  <img src="https://img.shields.io/badge/Lenis-000000?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS_v4-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+</p>
+
+---
+
 
 <p align="center">
   <strong>A premium cinematic product experience inspired by Red Bull, combining Apple-style storytelling, immersive animations, and interactive 3D visuals.</strong>
